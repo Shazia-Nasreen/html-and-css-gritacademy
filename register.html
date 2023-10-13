@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildgalleri</title>
+    <p><a href="Home.html">Home</a></p>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width">
+    <link href="//fonts.googleapis.com/css?family=Roboto|Open+Sans:200,300,400,700,800,900&amp;subset=latin" rel="preload" as="font" />
+</head>
+<body>
+<header>
+    <div id="grad1">
+        <nav class="bg-blue-500 p-4">
+            <ul class="flex justify-center space-x-4">
+                <li><a class="text-white hover:text-gray-300" href="Home.html">Home</a></li>
+                <li><a class="text-white hover:text-gray-300" href="about.html">About</a></li>
+
+                <li><a class="text-white hover:text-gray-300" href="Services.html">Services</a></li>
+                <li><a class="text-white hover:text-gray-300" href="contact us.html">Contact us</a></li>
+                <li><a class="text-white hover:text-gray-300" href="learnself.html">Learnself</a></li>
+                <li><a class="text-white hover:text-gray-300" href="register.html">Register</a></li>
+            </ul>
+        </nav>
+
+    </div>
+
+
+</header>
+
+<main>
+    <h1>Registration for free</h1>
+    <div class="content">
+        <h1>Here is a form for registration</h1>
+        <p>This is some content on the page.</p>
+    </div>
+
+
+    <form action="/action-page" method="post">
+        <label for="name">Namn:</label>
+        <input type="text" name="name" id="name" required><br><br>
+
+        <!-- Email-input -->
+        <label for="email-input">Email-input:</label>
+        <input type="email" id="email-input" name="email_input" required><br><br>
+
+        <!-- Nummer-input -->
+        <label for="number-input">Date of birth:</label>
+        <input type="number" id="number-input" name="number_input" required><br><br>
+        <!-- Nummer-input -->
+        <label for="number-input">Telefon:</label>
+        <input type="number" id="number-input" name="number_input" required><br><br>
+
+
+        <!-- Radioknappar -->
+        <label for="radio-input">Välj ditt ålder grupp:</label><br>
+        <input type="radio" id="option1" name="radio_options" value="ungdom">
+        <label for="option1">ungdom</label><br>
+        <input type="radio" id="option2" name="radio_options" value="vuxen">
+        <label for="option2">vuxen</label><br>
+        <input type="radio" id="option3" name="radio_options" value="pensioner">
+        <label for="option3">pensioner</label><br><br>
+
+        <!-- Select (rullista) -->
+        <label for="select-input">Välj ett alternativ av intresse><br>
+            <select id="select-input" name="select_option">
+                <option value="Alternativ 1">Naturvetenskap</option>
+                <option value="Alternativ 2">samhälle</option>
+                <option value="Alternativ 3">Fritid 3</option>
+            </select><br><br>
+
+            <!-- Textarea -->
+            <label for="textarea-input">Skriv en kommentar:</label><br>
+            <textarea id="textarea-input" name="comment" rows="4" cols="50"></textarea><br><br>
+
+            <!-- Checkbox -->
+            <input type="checkbox" id="checkbox-input" name="kontakt" value="Ja">
+            <label for="checkbox-input">kontakt med sms</label><br><br>
+            <input type="checkbox" id="checkbox-input" name="Kontakt" value="Ja">
+            <label for="checkbox-input">kontak med e post</label><br><br>
+
+            <!-- Submit-knapp -->
+            <input type="submit" value="Skicka">
+    </form>
+
+</main>
+<footer>
+    <!-- Footer section Start-->
+    <section class="footer_wrapper wrapper">
+        <div class="container">
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0 footer-logo">
+                    <img src="img4.jpg"  width="250"/>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5><a href="#">+46765934309</a></h5>
+                    <h5><a href="#">ShaziaNasreen@gritacademy.com</a></h5>
+                    <h5>Malmö,21527</h5>
+
+                </div>
+            </div>
+            <div class="container-fluid pt-5 px-0">
+                <div class="row">
+                    <div class="col-12">
+
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9016.74877628297!2d13.010633!3d55.5987557!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a159275308af%3A0x3fad69ed34b03709!2sGrit%20Academy!5e0!3m2!1ssv!2sse!4v1696964145254!5m2!1ssv!2sse" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid copyright-section   ">
+                <p>© 2023 shacod. All Rights Reserved</p>
+            </div>
+    </section>
+    <!-- Footer Section Exit  -->
+
+    <!-- whatsapp Intigration -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+<script src="lightbox.js"></script>
+</body>
+</html>
